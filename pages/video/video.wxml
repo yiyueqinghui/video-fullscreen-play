@@ -1,0 +1,5 @@
+<!--pages/video/video.wxml-->
+<view class="video-container">
+     <button   bindtap='play' >播放</button>
+     <video id='myvideo' class='{{fullScreen?"show":"hide"}}'   src="/video/movie.mp4"  autoplay="true" bindfullscreenchange="fullScreen"  bindended="closeVideo"  controls></video>
+</view>
