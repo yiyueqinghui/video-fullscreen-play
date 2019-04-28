@@ -17,6 +17,7 @@ Page({
     this.setData({
       fullScreen: true
     })
+    
   },
   /**关闭视屏 */
   closeVideo() {
